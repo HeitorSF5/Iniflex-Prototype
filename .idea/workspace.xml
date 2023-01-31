@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e64300e6-6d82-4b2f-8c54-4a092dbe1869" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kiwi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/MainUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/MainUI.java" afterDir="false" />
+    <list default="true" id="e64300e6-6d82-4b2f-8c54-4a092dbe1869" name="Changes" comment="Adicionando elemento de GUI com tabela e inicializando-o no Main">
+      <change afterPath="$PROJECT_DIR$/src/UI/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JTable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/MainUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +47,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "329",
-    "settings.editor.selected.configurable": "preferences.general"
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "160",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
@@ -61,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674939041258</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adicionando elemento de GUI com tabela e inicializando-o no Main">
+      <created>1675116264489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675116264489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +80,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionando elemento de GUI com tabela e inicializando-o no Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando elemento de GUI com tabela e inicializando-o no Main" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,5 +1,8 @@
+package UI;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 public class Funcionario extends Pessoa {
     private BigDecimal salario;
@@ -8,8 +11,8 @@ public class Funcionario extends Pessoa {
         super(nome, dataNasc);
         this.salario = salario;
         this.funcao = funcao;
-    };
-    public BigDecimal getSalario() {
-        return salario;
+    }
+    public Object[] getAttributes() {
+        return List.of(this.getNome(), this.getDataNasc(), this.salario, this.funcao).toArray();
     }
 }
